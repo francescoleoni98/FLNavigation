@@ -46,7 +46,7 @@ FLNavigation is distributed using the Swift Package Manager (SPM).
 
 ```swift
 dependencies: [
-	.package(url: "https://github.com/francescoleoni98/FLNavigation.git", from: "1.0.0")
+  .package(url: "https://github.com/francescoleoni98/FLNavigation.git", from: "1.0.0")
 ]
 ```
 
