@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100" height="100" src="/Assets/icon.png" alt="FLNavigation Logo">
+  <img width="100" height="100" src="../Assets/icon.png" alt="FLNavigation Logo">
   <h1><b>FLNavigation</b></h1>
   <p>
 		FLNavigation is a lightweight and modern Swift package that simplifies navigation management in SwiftUI applications. Built with clarity and flexibility in mind, FLNavigation enables clean and scalable routing.
@@ -62,7 +62,7 @@ FLNavigation is distributed using the Swift Package Manager (SPM).
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/your-username/FLNavigation.git", from: "1.0.0")
+    .package(url: "https://github.com/francescoleoni98/FLNavigation.git", from: "1.0.0")
 ]
 ```
 
@@ -72,12 +72,12 @@ Then add "FLNavigation" to the dependencies of your target.
 
 | Action          | Description                                  | Example                                         |
 |-----------------|----------------------------------------------|-------------------------------------------------|
-| `present(_:)`   | Presents a new screen                        | `navigation.(present(AppScreen.onboarding))`    |
-| `push(_:)`      | Pushes a new screen onto the navigation stack| `navigation.(push(.detail(id: 1)))`             |
-| `pop`           | Pops the top screen off the navigation stack | `navigation.(pop)`                              |
-| `popToRoot`     | Pops all screens and returns to the root     | `navigation.(popToRoot)`                        |
-| `setScreens(_:)`| Replaces the entire navigation stack         | `navigation.(setScreens([AppScreen.onboarding])`|
-| `dismiss`       | Dismisses the current screen                 | `navigation.(dismiss)`                          |
+| `present(_:)`   | Presents a new screen                        | `navigation(.present(AppScreen.onboarding))`    |
+| `push(_:)`      | Pushes a new screen onto the navigation stack| `navigation(.push(AppScreen.detail(id: 1)))`             |
+| `pop`           | Pops the top screen off the navigation stack | `navigation(.pop)`                              |
+| `popToRoot`     | Pops all screens and returns to the root     | `navigation(.popToRoot)`                        |
+| `setScreens(_:)`| Replaces the entire navigation stack         | `navigation(.setScreens([AppScreen.onboarding])`|
+| `dismiss`       | Dismisses the current screen                 | `navigation(.dismiss)`                          |
 
 ## Usage
 
