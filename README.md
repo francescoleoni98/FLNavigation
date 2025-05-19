@@ -33,16 +33,16 @@
 
   <div align="center">
 		<a href="https://apps.apple.com/us/app/brain-dump-notes-writing/id6448230631" target="_blank">
-			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="40" height="40">
+			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="44" height="44" style="border-radius: 16px; border: 1px solid #C8C8C8;">
 		</a>
 		&nbsp;&nbsp;
 		<a href="https://apps.apple.com/us/app/brain-dump-notes-writing/id6448230631" target="_blank">
-			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="40" height="40">
+			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="44" height="44" style="border-radius: 16px; border: 1px solid #C8C8C8;">
 		</a>
 	</div>
 </div>
 
-<p align="center">
+<p align="center" style="margin-top: 20px">
   <em>Are you using FLNavigation in your app? <a href="mailto:leonifrancesco98@gmail.com">Tell me</a>!</em>
 </p>
 
