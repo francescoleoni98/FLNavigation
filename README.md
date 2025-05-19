@@ -8,24 +8,12 @@
 </div>
 
 <p align="center">
-  <a href="https://swiftpackageindex.com">
     <img src="https://img.shields.io/badge/SPM-Compatible-success.svg" alt="SPM Compatible">
-  </a>
-  <a href="https://developer.apple.com/ios">
     <img src="https://img.shields.io/badge/iOS-16+-blue.svg" alt="iOS 16+">
-  </a>
-  <a href="https://developer.apple.com/macos">
     <img src="https://img.shields.io/badge/macOS-13+-lightgrey.svg" alt="macOS 13+">
-  </a>
-  <a href="https://developer.apple.com/visionos">
     <img src="https://img.shields.io/badge/visionOS-1+-purple.svg" alt="visionOS 1+">
-  </a>
-  <a href="https://developer.apple.com/watchos">
     <img src="https://img.shields.io/badge/watchOS-9+-green.svg" alt="watchOS 9+">
-  </a>
-  <a href="https://developer.apple.com/tvos">
     <img src="https://img.shields.io/badge/tvOS-16+-orange.svg" alt="tvOS 16+">
-  </a>
 </p>
 
 <p align="center">
