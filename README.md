@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100" height="100" src="../Assets/icon.png" alt="FLNavigation Logo">
+  <img width="100" height="100" src="/Assets/icon.png" alt="FLNavigation Logo">
   <h1><b>FLNavigation</b></h1>
   <p>
 		FLNavigation is a lightweight and modern Swift package that simplifies navigation management in SwiftUI applications. Built with clarity and flexibility in mind, FLNavigation enables clean and scalable routing.
