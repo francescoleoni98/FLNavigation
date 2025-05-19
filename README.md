@@ -46,7 +46,7 @@ FLNavigation is distributed using the Swift Package Manager (SPM).
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/francescoleoni98/FLNavigation.git", from: "1.0.0")
+	.package(url: "https://github.com/francescoleoni98/FLNavigation.git", from: "1.0.0")
 ]
 ```
 
@@ -76,18 +76,18 @@ import FLNavigation
 ```swift
 enum AppScreen: ModalScreen {
 	
-	case onboarding
-	case home(tab: Int)
+  case onboarding
+  case home(tab: Int)
 	
-	var style: ModalStyle {
-		switch self {
-		case .onboarding:
-			return .modal
-
-		default:
-			return .fullScreen
-		}
-	}
+  var style: ModalStyle {
+	  switch self {
+	  case .onboarding:
+		  return .modal
+			
+	  default:
+		  return .fullScreen
+	  }
+  }
 }
 ```
 
