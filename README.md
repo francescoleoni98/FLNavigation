@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="200" height="200" src="/Assets/icon.png" alt="FLNavigation Logo">
+  <img width="150" height="150" src="/Assets/icon.png" alt="FLNavigation Logo">
   <h1><b>FLNavigation</b></h1>
   <p>
 		FLNavigation is a lightweight and modern Swift package that simplifies navigation management in SwiftUI applications. Built with clarity and flexibility in mind, FLNavigation enables clean and scalable routing.
@@ -33,11 +33,11 @@
 
   <div align="center">
 		<a href="https://apps.apple.com/us/app/brain-dump-notes-writing/id6448230631" target="_blank">
-			<img src="/Assets/brain-dump" alt="RouteFinder" width="40" height="40">
+			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="40" height="40">
 		</a>
 		&nbsp;&nbsp;
 		<a href="https://apps.apple.com/us/app/brain-dump-notes-writing/id6448230631" target="_blank">
-			<img src="/Assets/brain-dump" alt="RouteFinder" width="40" height="40">
+			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="40" height="40">
 		</a>
 	</div>
 </div>
