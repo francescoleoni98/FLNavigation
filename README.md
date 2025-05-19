@@ -7,6 +7,9 @@
   </p>
 </div>
 
+[![](https://img.shields.io/badge/SPM-Compatible-success.svg)](https://swiftpackageindex.com)
+[![](https://img.shields.io/badge/iOS-16+-blue.svg)](https://developer.apple.com/ios)
+
 <div align="center">
   <a href="https://swiftpackageindex.com">
     <img src="https://img.shields.io/badge/SPM-Compatible-success.svg" alt="SPM Compatible">
