@@ -39,7 +39,7 @@ FLNavigation is distributed using the Swift Package Manager (SPM).
 1. Go to your project’s settings.
 2. Select the `Package Dependencies` tab.
 3. Click the `+` button.
-4. Enter the URL of the FLNavigation repository: https://github.com/francescoleoni98/FLNavigation
+4. Enter the URL of the FLNavigation repository: https://github.com/francescoleoni98/FLNavigation.git
 5. Choose the latest version and add the package to your project.
 
 ### Using `Package.swift`
