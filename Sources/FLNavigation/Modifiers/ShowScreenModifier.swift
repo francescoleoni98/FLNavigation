@@ -49,7 +49,9 @@ struct ShowScreenModifier<Screen: View>: ViewModifier {
 		}
 		.environment(\.screen, screen)
 		.environment(\.navigation) { action in
-//			Haptics.selection()
+#if os(iOS)
+			UIImpactFeedbackGenerator().impactOccurred(intensity: 0.8)
+#endif
 
 			switch action {
 			case .present(let screen):
@@ -88,10 +90,10 @@ struct ShowScreenModifier<Screen: View>: ViewModifier {
 			screenContent(screen.screen)
 				.showScreen(screenContent)
 		}
-//		.conditionalSheetOrFullScreenCover(item: $fullScreenToShow) { screen in
-//			screenContent(screen.screen)
-//				.showScreen(screenContent)
-//		}
+		.conditionalSheetOrFullScreenCover(item: $fullScreenToShow) { screen in
+			screenContent(screen.screen)
+				.showScreen(screenContent)
+		}
 	}
 }
 
