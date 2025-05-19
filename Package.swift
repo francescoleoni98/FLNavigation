@@ -1,24 +1,28 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "FLNavigation",
-    products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: "FLNavigation",
-            targets: ["FLNavigation"]),
-    ],
-    targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "FLNavigation"),
-        .testTarget(
-            name: "FLNavigationTests",
-            dependencies: ["FLNavigation"]
-        ),
-    ]
+	name: "FLNavigation",
+	platforms: [
+		.iOS(.v16),
+		.macOS(.v13),
+		.tvOS(.v16),
+		.visionOS(.v1),
+		.watchOS(.v9)
+	],
+	products: [
+		.library(
+			name: "FLNavigation",
+			targets: ["FLNavigation"]),
+	],
+	targets: [
+		.target(
+			name: "FLNavigation"),
+		.testTarget(
+			name: "FLNavigationTests",
+			dependencies: ["FLNavigation"]
+		),
+	]
 )
