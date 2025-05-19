@@ -106,7 +106,7 @@ struct MainApp: App {
           case let appScreen as AppScreen:
             buildAppScreen(appScreen)
 				  
-					default:
+          default:
             EmptyView()
         }
       }
