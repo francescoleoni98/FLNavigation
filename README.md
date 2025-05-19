@@ -87,7 +87,7 @@ enum AppScreen: ModalScreen {
       return .modal
 			
     default:
-	    return .fullScreen
+      return .fullScreen
     }
   }
 }
@@ -103,13 +103,13 @@ struct MainApp: App {
     ContentView()
       .showScreen { screen in
         switch screen {
-				  case let appScreen as AppScreen:
+          case let appScreen as AppScreen:
             buildAppScreen(appScreen)
 				  
-				  default:
-				    EmptyView()
+					default:
+            EmptyView()
         }
-	    }
+      }
   }
   
   @ViewBuilder
