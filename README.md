@@ -7,10 +7,7 @@
   </p>
 </div>
 
-[![](https://img.shields.io/badge/SPM-Compatible-success.svg)](https://swiftpackageindex.com)
-[![](https://img.shields.io/badge/iOS-16+-blue.svg)](https://developer.apple.com/ios)
-
-<div align="center">
+<p align="center">
   <a href="https://swiftpackageindex.com">
     <img src="https://img.shields.io/badge/SPM-Compatible-success.svg" alt="SPM Compatible">
   </a>
@@ -29,9 +26,9 @@
   <a href="https://developer.apple.com/tvos">
     <img src="https://img.shields.io/badge/tvOS-16+-orange.svg" alt="tvOS 16+">
   </a>
-</div>
+</p>
 
-<div align="center">
+<p align="center">
   <h3><b>Apps Using FLNavigation</b></h3>
 
   <div align="center">
@@ -43,7 +40,7 @@
 			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="44" height="44" style="border-radius: 16px; border: 1px solid #C8C8C8;">
 		</a>
 	</div>
-</div>
+</p>
 
 <p align="center" style="margin-top: 20px">
   <em>Are you using FLNavigation in your app? <a href="mailto:leonifrancesco98@gmail.com">Tell me</a>!</em>
