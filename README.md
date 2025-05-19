@@ -8,27 +8,23 @@
 </div>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/SPM-Compatible-success.svg" alt="SPM Compatible">
-    <img src="https://img.shields.io/badge/iOS-16+-blue.svg" alt="iOS 16+">
-    <img src="https://img.shields.io/badge/macOS-13+-lightgrey.svg" alt="macOS 13+">
-    <img src="https://img.shields.io/badge/visionOS-1+-purple.svg" alt="visionOS 1+">
-    <img src="https://img.shields.io/badge/watchOS-9+-green.svg" alt="watchOS 9+">
-    <img src="https://img.shields.io/badge/tvOS-16+-orange.svg" alt="tvOS 16+">
+	<img src="https://img.shields.io/badge/SPM-Compatible-success.svg" alt="SPM Compatible">
+	<img src="https://img.shields.io/badge/iOS-16+-blue.svg" alt="iOS 16+">
+	<img src="https://img.shields.io/badge/macOS-13+-lightgrey.svg" alt="macOS 13+">
+	<img src="https://img.shields.io/badge/visionOS-1+-purple.svg" alt="visionOS 1+">
+	<img src="https://img.shields.io/badge/watchOS-9+-green.svg" alt="watchOS 9+">
+	<img src="https://img.shields.io/badge/tvOS-16+-orange.svg" alt="tvOS 16+">
 </p>
 
-<p align="center">
+<div align="center">
   <h3><b>Apps Using FLNavigation</b></h3>
 
   <div align="center">
 		<a href="https://apps.apple.com/us/app/brain-dump-notes-writing/id6448230631" target="_blank">
 			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="44" height="44" style="border-radius: 16px; border: 1px solid #C8C8C8;">
 		</a>
-		&nbsp;&nbsp;
-		<a href="https://apps.apple.com/us/app/brain-dump-notes-writing/id6448230631" target="_blank">
-			<img src="/Assets/brain-dump.png" alt="Brain Dump app" width="44" height="44" style="border-radius: 16px; border: 1px solid #C8C8C8;">
-		</a>
 	</div>
-</p>
+</div>
 
 <p align="center" style="margin-top: 20px">
   <em>Are you using FLNavigation in your app? <a href="mailto:leonifrancesco98@gmail.com">Tell me</a>!</em>
