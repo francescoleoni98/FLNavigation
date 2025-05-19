@@ -80,13 +80,13 @@ enum AppScreen: ModalScreen {
   case home(tab: Int)
 	
   var style: ModalStyle {
-	  switch self {
-	  case .onboarding:
-		  return .modal
+    switch self {
+    case .onboarding:
+      return .modal
 			
-	  default:
-		  return .fullScreen
-	  }
+    default:
+	    return .fullScreen
+    }
   }
 }
 ```
@@ -96,13 +96,13 @@ enum AppScreen: ModalScreen {
 ```swift
 struct ContentView: View {
 
-	@Environment(\.navigation) var navigation
+  @Environment(\.navigation) var navigation
 
-	var body: some View {
-		Button("Push") {
-			navigation(.push(AppScreen.home(tab: 1)
-		}
-	}
+  var body: some View {
+    Button("Push") {
+      navigation(.push(AppScreen.home(tab: 1)
+    }
+  }
 }
 ```
 
@@ -111,11 +111,11 @@ struct ContentView: View {
 ```swift
 struct ContentView: View {
 
-	var body: some View {
-		NavigationPush(AppScreen.home(tab: 1)) {
-			Text("Push")
-		}
-	}
+  var body: some View {
+    NavigationPush(AppScreen.home(tab: 1)) {
+      Text("Push")
+    }
+  }
 }
 ```
 
