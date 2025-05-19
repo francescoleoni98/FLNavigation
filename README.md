@@ -65,6 +65,8 @@ Then add "FLNavigation" to the dependencies of your target.
 
 ## Usage
 
+**Note:** FLNavigation manages the creation of `NavigationStack`, so to ensure it works correctly, you must remove any instances of `NavigationView` or `NavigationStack` from the `Views` you declare as `ModalScreen`.
+
 ### Import
 
 ```swift
@@ -87,6 +89,36 @@ enum AppScreen: ModalScreen {
     default:
 	    return .fullScreen
     }
+  }
+}
+```
+
+Then in your `MainApp`:
+
+```swift
+@main
+struct MainApp: App {
+
+  var screen: some View {
+    ContentView()
+      .showScreen { screen in
+        switch screen {
+				  case let appScreen as AppScreen:
+            buildAppScreen(appScreen)
+				  
+				  default:
+				    EmptyView()
+        }
+	    }
+  }
+  
+  @ViewBuilder
+  func buildAppScreen(_ screen: AppScreen) -> some View {
+    switch screen {
+    case .onboarding:
+      Onboarding()
+    
+    // [...]
   }
 }
 ```
@@ -116,6 +148,16 @@ struct ContentView: View {
       Text("Push")
     }
   }
+}
+```
+
+#### Check which screen has been presented
+
+```swift
+struct ContentView: View {
+
+  @Environment(\.screen) var screen
+
 }
 ```
 
