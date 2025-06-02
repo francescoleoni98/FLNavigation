@@ -12,10 +12,12 @@ public struct NavigationPush<Content: View>: View {
 	@Environment(\.navigation) var navigation
 
 	var destination: ModalScreen
+	var showDisclosureIndicator: Bool
 	@ViewBuilder var content: () -> Content
 
-	public init(destination: ModalScreen, @ViewBuilder content: @escaping () -> Content) {
+	public init(destination: ModalScreen, showDisclosureIndicator: Bool = false, @ViewBuilder content: @escaping () -> Content) {
 		self.destination = destination
+		self.showDisclosureIndicator = showDisclosureIndicator
 		self.content = content
 	}
 
@@ -23,7 +25,18 @@ public struct NavigationPush<Content: View>: View {
 		Button {
 			navigation(.push(destination))
 		} label: {
-			content()
+			if showDisclosureIndicator {
+				HStack {
+					content()
+						.frame(maxWidth: .infinity)
+
+					Image(systemName: "chevron.right")
+						.foregroundStyle(.quaternary)
+						.font(.footnote.bold())
+				}
+			} else {
+				content()
+			}
 		}
 	}
 }
