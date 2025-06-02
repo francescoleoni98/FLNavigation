@@ -28,7 +28,7 @@ public struct NavigationPush<Content: View>: View {
 			if showDisclosureIndicator {
 				HStack {
 					content()
-						.frame(maxWidth: .infinity)
+						.frame(maxWidth: .infinity, alignment: .leading)
 
 					Image(systemName: "chevron.right")
 						.foregroundStyle(.quaternary)
